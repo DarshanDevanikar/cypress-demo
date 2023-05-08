@@ -11,6 +11,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v5
         with:
+          tag : dd
           record: true
           parallel: true # Runs test in parallel using settings above
         env:
