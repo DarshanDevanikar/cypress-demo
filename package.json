@@ -4,7 +4,7 @@
   "description": "",
   "private":"true",
   "scripts": {    
-    "test" : ""
+    "cy:run" : "cypress run --tag dd"
   },
   "keywords": [],
   "author": "darshan devanikar",
