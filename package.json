@@ -2,18 +2,15 @@
   "name": "cypress-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private":"true",
   "scripts": {    
-    "start": "my-server -p 3030",
-    "cy:run": "cypress run --parallel",
-    "test": "start-server-and-test start http://localhost:3030 cy:run"
+    "test" : ""
   },
   "keywords": [],
-  "author": "",
+  "author": "darshan devanikar",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^12.11.0",
-    "prettier": "^2.8.8",
     "start-server-and-test": "^2.0.0"
   }
 }
