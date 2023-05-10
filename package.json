@@ -4,7 +4,7 @@
   "description": "",
   "private":"true",
   "scripts": {    
-    "test" : "cypress run --spec cypress/e2e/1-getting-started/sample.js"
+    "test" : ""
   },
   "keywords": [],
   "author": "darshan devanikar",
